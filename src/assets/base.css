@@ -1,0 +1,34 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+    font-family: 'Almarai', sans-serif;
+}
+html,body{
+    scroll-behavior: smooth !important;
+}
+ul,
+li,
+p {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #21325E !important;
+    direction: rtl !important;
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none !important;
+}
